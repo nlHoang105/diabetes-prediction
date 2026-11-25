@@ -1,0 +1,128 @@
+{
+    "KNN (k=5)": {
+        "Accuracy": 90.67,
+        "Recall": 79.38,
+        "Precision": 48.28,
+        "F1_Score": 60.04,
+        "ROC_AUC": 91.23,
+        "Train_Time_Seconds": 0.43,
+        "Confusion_Matrix": [
+            [
+                16087,
+                1443
+            ],
+            [
+                350,
+                1347
+            ]
+        ]
+    },
+    "Naïve Bayes": {
+        "Accuracy": 85.26,
+        "Recall": 79.49,
+        "Precision": 35.17,
+        "F1_Score": 48.76,
+        "ROC_AUC": 90.58,
+        "Train_Time_Seconds": 0.05,
+        "Confusion_Matrix": [
+            [
+                15043,
+                2487
+            ],
+            [
+                348,
+                1349
+            ]
+        ]
+    },
+    "Decision Tree": {
+        "Accuracy": 85.72,
+        "Recall": 92.4,
+        "Precision": 37.48,
+        "F1_Score": 53.32,
+        "ROC_AUC": 96.37,
+        "Train_Time_Seconds": 0.19,
+        "Confusion_Matrix": [
+            [
+                14914,
+                2616
+            ],
+            [
+                129,
+                1568
+            ]
+        ]
+    },
+    "Logistic Regression": {
+        "Accuracy": 88.46,
+        "Recall": 87.45,
+        "Precision": 42.53,
+        "F1_Score": 57.23,
+        "ROC_AUC": 95.95,
+        "Train_Time_Seconds": 0.21,
+        "Confusion_Matrix": [
+            [
+                15525,
+                2005
+            ],
+            [
+                213,
+                1484
+            ]
+        ]
+    },
+    "Linear SVM": {
+        "Accuracy": 88.57,
+        "Recall": 87.86,
+        "Precision": 42.81,
+        "F1_Score": 57.57,
+        "ROC_AUC": 95.95,
+        "Train_Time_Seconds": 0.44,
+        "Confusion_Matrix": [
+            [
+                15538,
+                1992
+            ],
+            [
+                206,
+                1491
+            ]
+        ]
+    },
+    "Random Forest": {
+        "Accuracy": 91.22,
+        "Recall": 86.68,
+        "Precision": 50.15,
+        "F1_Score": 63.54,
+        "ROC_AUC": 97.24,
+        "Train_Time_Seconds": 2.74,
+        "Confusion_Matrix": [
+            [
+                16068,
+                1462
+            ],
+            [
+                226,
+                1471
+            ]
+        ]
+    },
+    "Gradient Boosting": {
+        "Accuracy": 96.27,
+        "Recall": 75.37,
+        "Precision": 81.05,
+        "F1_Score": 78.11,
+        "ROC_AUC": 97.54,
+        "Train_Time_Seconds": 21.18,
+        "Confusion_Matrix": [
+            [
+                17231,
+                299
+            ],
+            [
+                418,
+                1279
+            ]
+        ]
+    }
+}
