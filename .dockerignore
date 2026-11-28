@@ -1,0 +1,15 @@
+# Loại trừ các thư mục và tệp không cần thiết khỏi Docker Build Context
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.git/
+.gitignore
+.vscode/
+docs/
+data/raw/
+*.bat
+*.ps1
+*.ipynb
+*.docx
+*.pdf
