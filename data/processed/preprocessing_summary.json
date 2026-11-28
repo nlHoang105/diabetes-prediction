@@ -1,0 +1,36 @@
+{
+    "dataset_name": "Diabetes Prediction Dataset",
+    "raw_samples": 100000,
+    "duplicate_samples_removed": 3854,
+    "invalid_gender_removed": 18,
+    "clean_samples": 96128,
+    "train_samples": 76901,
+    "test_samples": 19227,
+    "smote_train_samples": 140232,
+    "features": [
+        "gender",
+        "age",
+        "hypertension",
+        "heart_disease",
+        "bmi",
+        "HbA1c_level",
+        "blood_glucose_level",
+        "smoking_No Info",
+        "smoking_current",
+        "smoking_ever",
+        "smoking_former",
+        "smoking_never",
+        "smoking_not current"
+    ],
+    "scaled_numerical_features": [
+        "age",
+        "bmi",
+        "HbA1c_level",
+        "blood_glucose_level"
+    ],
+    "target_col": "diabetes",
+    "class_counts_test": {
+        "non_diabetic": 17530,
+        "diabetic": 1697
+    }
+}
